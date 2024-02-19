@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback Form</title>
     
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-aea67610.css">
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-c17a73a2.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-9d6565c2.css">
   </head>
   <body>
     <form class="feedback-form" autocomplete="off">
       <label class="email-style">
         Email
-        <input type="email" name="email" autofocus />
+        <input class="email-input-style" type="email" name="email" autofocus />
       </label>
-      <label class="textarea-style">
+      <label class="message-style">
         Message
-        <textarea name="message" rows="8"></textarea>
+        <textarea class="textarea-style" name="message" rows="8"></textarea>
       </label>
-      <button type="submit">Submit</button>
+      <button class="button" type="submit">Submit</button>
     </form>
 
-    <script src="./js/2-form.js"></script>
+    
   </body>
 </html>
