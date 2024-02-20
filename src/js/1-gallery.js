@@ -4,7 +4,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
-        { small: "/img/plan.jpg", large: "./img/plan.jpg", alt: "Image plan" },
+        { small: "./img/plan.jpg", large: "./img/plan.jpg", alt: "Image plan" },
         { small: "./img/bulb.jpg", large: "./img/bulb.jpg", alt: "Image bulb" },
         { small: "./img/phone.jpg", large: "./img/phone.jpg", alt: "Image phone" },
         { small: "./img/room.jpg", large: "./img/room.jpg", alt: "Image room" },
